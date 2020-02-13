@@ -1,6 +1,6 @@
 # gm
 general motors 
-small automation using Java & selenium 
+small automation with Java & selenium using testNG & Maven.
 
 # Prerequisites
 ## Setting up Java
