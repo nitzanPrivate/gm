@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="searchTest" duration-ms="23331" started-at="2020-02-13T12:29:36Z" finished-at="2020-02-13T12:29:59Z">
+    <groups>
+      <group name="sanity">
+        <method signature="searchTest.e2eTest()[pri:1, instance:searchTest@2ef9b8bc]" name="e2eTest" class="searchTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Command line test" duration-ms="23331" started-at="2020-02-13T12:29:36Z" finished-at="2020-02-13T12:29:59Z">
+      <class name="searchTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:searchTest@2ef9b8bc]" name="openBrowser" is-config="true" duration-ms="12760" started-at="2020-02-13T12:29:36Z" finished-at="2020-02-13T12:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="e2eTest()[pri:1, instance:searchTest@2ef9b8bc]" name="e2eTest" duration-ms="10538" started-at="2020-02-13T12:29:49Z" finished-at="2020-02-13T12:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:searchTest@2ef9b8bc]" name="closeBrowser" is-config="true" duration-ms="829" started-at="2020-02-13T12:29:59Z" finished-at="2020-02-13T12:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- searchTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- searchTest -->
+</testng-results>
